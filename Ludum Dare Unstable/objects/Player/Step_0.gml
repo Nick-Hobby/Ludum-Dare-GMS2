@@ -107,8 +107,8 @@ if (l475A52FC_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 144EF2C9
 	/// @DnDParent : 475A52FC
-	/// @DnDArgument : "speed" "1"
-	speed = 1;
+	/// @DnDArgument : "speed" "10"
+	speed = 10;
 }
 
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Released
@@ -130,7 +130,8 @@ if (l3CB63F68_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 448BDE6B
 	/// @DnDParent : 3CB63F68
-	speed = 0;
+	/// @DnDArgument : "speed" "10"
+	speed = 10;
 }
 
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
@@ -152,8 +153,8 @@ if (l446C3EAA_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 22867B05
 	/// @DnDParent : 446C3EAA
-	/// @DnDArgument : "speed" "1"
-	speed = 1;
+	/// @DnDArgument : "speed" "10"
+	speed = 10;
 }
 
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Released
@@ -175,5 +176,6 @@ if (l103A047E_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 402CF7DC
 	/// @DnDParent : 103A047E
-	speed = 0;
+	/// @DnDArgument : "speed" "10"
+	speed = 10;
 }
