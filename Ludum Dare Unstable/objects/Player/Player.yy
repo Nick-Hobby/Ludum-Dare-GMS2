@@ -19,6 +19,7 @@
   "physicsFriction": 0.2,
   "physicsStartAwake": true,
   "physicsKinematic": false,
+<<<<<<< HEAD
   "physicsShapePoints": [
     {"x":0.0,"y":0.0,},
     {"x":64.0,"y":0.0,},
@@ -36,6 +37,11 @@
     {"varType":0,"value":"0.9","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"drag","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"facing","tags":[],"resourceType":"GMObjectProperty",},
   ],
+=======
+  "physicsShapePoints": [],
+  "eventList": [],
+  "properties": [],
+>>>>>>> parent of 7169405 (Player Can Move :))
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
