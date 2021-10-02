@@ -8,7 +8,7 @@ jspd = 8;
 /// movement
 var rkey = keyboard_check(ord("D"));
 var lkey = keyboard_check(ord("A"));
-var jkey = keyboard_check(vk_space);
+var jkey = keyboard_check_pressed(vk_space);
 
 //check for ground
 if (place_meeting(x, y+1, GrassyGround))
