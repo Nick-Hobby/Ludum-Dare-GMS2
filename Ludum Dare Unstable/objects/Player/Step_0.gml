@@ -1,6 +1,8 @@
 
 // Get input
-kLeft = -keyboard_check(vk_left); kRight = keyboard_check(vk_right); kJump = keyboard_check_pressed(vk_up);
+kLeft = -keyboard_check(ord("A"));
+kRight = keyboard_check(ord("D"));
+kJump = keyboard_check_pressed(vk_space);
 
 // Use input
 move = kLeft + kRight; hsp = move * moveSpeed;
