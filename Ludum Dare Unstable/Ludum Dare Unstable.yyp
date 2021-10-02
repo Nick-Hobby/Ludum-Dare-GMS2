@@ -22,7 +22,6 @@
     {"id":{"name":"oswald_title_40","path":"fonts/oswald_title_40/oswald_title_40.yy",},"order":1,},
     {"id":{"name":"Splashscreen","path":"rooms/Splashscreen/Splashscreen.yy",},"order":1,},
     {"id":{"name":"sound_menu_switch","path":"sounds/sound_menu_switch/sound_menu_switch.yy",},"order":0,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -39,9 +38,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Testing","path":"rooms/Testing/Testing.yy",},},
     {"roomId":{"name":"Splashscreen","path":"rooms/Splashscreen/Splashscreen.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Testing","path":"rooms/Testing/Testing.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
