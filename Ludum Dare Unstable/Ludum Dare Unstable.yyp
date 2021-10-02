@@ -1,6 +1,8 @@
 {
   "resources": [
-    {"id":{"name":"deeznutz","path":"objects/deeznutz/deeznutz.yy",},"order":0,},
+    {"id":{"name":"bahnschrift_title_40","path":"fonts/bahnschrift_title_40/bahnschrift_title_40.yy",},"order":2,},
+    {"id":{"name":"title_screen_sprite","path":"sprites/title_screen_sprite/title_screen_sprite.yy",},"order":0,},
+    {"id":{"name":"obj_start_menu","path":"objects/obj_start_menu/obj_start_menu.yy",},"order":3,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":15,},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":17,},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},"order":3,},
@@ -13,6 +15,14 @@
     {"id":{"name":"calc_movement","path":"scripts/calc_movement/calc_movement.yy",},"order":5,},
     {"id":{"name":"Testing","path":"rooms/Testing/Testing.yy",},"order":0,},
     {"id":{"name":"GrassyGround","path":"objects/GrassyGround/GrassyGround.yy",},"order":2,},
+    {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},"order":1,},
+    {"id":{"name":"consolas_20","path":"fonts/consolas_20/consolas_20.yy",},"order":0,},
+    {"id":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},"order":1,},
+    {"id":{"name":"obj_start_title","path":"objects/obj_start_title/obj_start_title.yy",},"order":2,},
+    {"id":{"name":"oswald_title_40","path":"fonts/oswald_title_40/oswald_title_40.yy",},"order":1,},
+    {"id":{"name":"Splashscreen","path":"rooms/Splashscreen/Splashscreen.yy",},"order":1,},
+    {"id":{"name":"sound_menu_switch","path":"sounds/sound_menu_switch/sound_menu_switch.yy",},"order":0,},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -30,6 +40,8 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Testing","path":"rooms/Testing/Testing.yy",},},
+    {"roomId":{"name":"Splashscreen","path":"rooms/Splashscreen/Splashscreen.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -52,6 +64,7 @@
   ],
   "TextureGroups": [
     {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
+    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"texturegroup1","resourceType":"GMTextureGroup",},
   ],
   "IncludedFiles": [],
   "MetaData": {
