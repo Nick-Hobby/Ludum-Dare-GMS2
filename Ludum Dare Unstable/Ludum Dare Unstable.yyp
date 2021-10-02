@@ -3,6 +3,7 @@
     {"id":{"name":"deeznutz","path":"objects/deeznutz/deeznutz.yy",},"order":0,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":15,},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":17,},
+    {"id":{"name":"get_input","path":"scripts/get_input/get_input.yy",},"order":0,},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":18,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":16,},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},"order":0,},
