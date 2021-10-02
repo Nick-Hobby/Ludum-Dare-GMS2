@@ -7,7 +7,6 @@
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":16,},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},"order":1,},
     {"id":{"name":"consolas_20","path":"fonts/consolas_20/consolas_20.yy",},"order":0,},
-    {"id":{"name":"Font4","path":"fonts/Font4/Font4.yy",},"order":3,},
     {"id":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},"order":1,},
     {"id":{"name":"obj_start_title","path":"objects/obj_start_title/obj_start_title.yy",},"order":2,},
     {"id":{"name":"oswald_title_40","path":"fonts/oswald_title_40/oswald_title_40.yy",},"order":1,},
