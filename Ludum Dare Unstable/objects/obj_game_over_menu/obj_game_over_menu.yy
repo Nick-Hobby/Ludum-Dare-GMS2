@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_start_menu",
+  "name": "obj_game_over_menu",
   "tags": [],
   "resourceType": "GMObject",
 }
