@@ -1,4 +1,5 @@
-
+if(instability <= 0)
+room_goto(1);
 
 // Get input
 kLeft = -keyboard_check(ord("A"));
