@@ -1,4 +1,5 @@
 
+
 // Get input
 kLeft = -keyboard_check(ord("A"));
 kRight = keyboard_check(ord("D"));
@@ -24,16 +25,57 @@ if (place_meeting(x + hsp, y, GrassyGround))
 	hsp = 0;
 } 
 
+if (place_meeting(x + hsp, y, Stability)) 
+{ 
+	while (!place_meeting(x + sign(hsp), y, Stability)) 
+		{
+			x += sign(hsp);
+		} 
+	hsp = 0;
+} 
+
+if (place_meeting(x + hsp, y, obj_spike_hazard)) 
+{ 
+	while (!place_meeting(x + sign(hsp), y, obj_spike_hazard)) 
+		{
+			x += sign(hsp);
+			instability -= 1;
+		} 
+	hsp = 0;
+	instability -= 1;
+} 
 x += hsp;
 
-// v Collisions 
-if (place_meeting(x, y + vsp, GrassyGround)) 
+// v Collisions for grass ground
+	if (place_meeting(x, y + vsp, GrassyGround)) 
+	{ 
+		while (!place_meeting(x, y + sign(vsp), GrassyGround))
+			{
+				y += sign(vsp);
+			}
+		vsp = 0;
+	}
+
+// v Collisions for stability
+	//if (place_meeting(x, y + vsp, Stability)) 
+	//{ 
+	//	while (!place_meeting(x, y + sign(vsp), Stability))
+	//		{
+	//			y += sign(vsp);
+				
+	//		}
+	//	vsp = 0;
+	//}
+
+if (place_meeting(x, y + hsp, obj_spike_hazard)) 
 { 
-	while (!place_meeting(x, y + sign(vsp), GrassyGround))
+	while (!place_meeting(x, y + sign(hsp), obj_spike_hazard)) 
 		{
-			y += sign(vsp);
-		}
-	vsp = 0;
-}
+			y += sign(hsp);
+			instability -= 1;
+		} 
+	hsp = 0;
+	instability -= 1;
+} 
 y += vsp;
 
