@@ -10,6 +10,5 @@ if (place_meeting(x, y + vsp, GrassyGround))
 			y += sign(vsp);
 		}
 	vsp = 0;
-	instance_destroy();
 }
 y += vsp * grav;

@@ -12,5 +12,9 @@ if (place_meeting(x, y + vsp, GrassyGround))
 	vsp = 0;
 	instance_destroy();
 	instance_create_layer(random_range(5,635),random_range(5,70), "Hazards", obj_spike_hazard);
+	if(random(15) < 1)
+	{
+		instance_create_layer(random_range(5,635),random_range(5,70), "Hazards", obj_stabilizer);
+	}
 }
 y += vsp * grav;
