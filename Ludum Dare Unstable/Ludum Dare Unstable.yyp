@@ -1,5 +1,7 @@
 {
   "resources": [
+    {"id":{"name":"music_ancientpath_loop","path":"sounds/music_ancientpath_loop/music_ancientpath_loop.yy",},"order":1,},
+    {"id":{"name":"background_music","path":"objects/background_music/background_music.yy",},"order":11,},
     {"id":{"name":"bahnschrift_title_40","path":"fonts/bahnschrift_title_40/bahnschrift_title_40.yy",},"order":2,},
     {"id":{"name":"title_screen_sprite","path":"sprites/title_screen_sprite/title_screen_sprite.yy",},"order":0,},
     {"id":{"name":"obj_start_menu","path":"objects/obj_start_menu/obj_start_menu.yy",},"order":3,},

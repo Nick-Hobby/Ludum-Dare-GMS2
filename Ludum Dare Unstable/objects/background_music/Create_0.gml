@@ -1,0 +1,1 @@
+audio_play_sound(music_ancientpath_loop, 1000, true);
