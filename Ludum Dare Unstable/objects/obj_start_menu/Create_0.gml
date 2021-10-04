@@ -3,8 +3,7 @@ menu_y = y;
 
 //buttons
 button[0] = "New Game";
-button[1] = "Game Over Screen";
-button[2] = "Exit";
+button[1] = "Exit";
 buttons = array_length_1d(button);
 button_h = string_height(button[0]);
 
