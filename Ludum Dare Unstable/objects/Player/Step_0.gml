@@ -1,5 +1,11 @@
 score += 1;
 
+if(instability <= 0)
+{
+	audio_stop_all();
+	room_goto(1);
+}
+
 // Get input
 kLeft = -keyboard_check(ord("A"));
 kRight = keyboard_check(ord("D"));
