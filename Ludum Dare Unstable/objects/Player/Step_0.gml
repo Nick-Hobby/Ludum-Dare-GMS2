@@ -1,4 +1,4 @@
-
+score += 1;
 
 // Get input
 kLeft = -keyboard_check(ord("A"));
